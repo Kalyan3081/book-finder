@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Grid and cards adjustments for small screens */
+@media (max-width: 900px) {
+
+  .book-list,
+  .shimmer-container {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  .book-cover,
+  .shimmer-cover {
+    height: 200px;
+  }
+
+  .book-info h3 {
+    font-size: 14px;
+  }
+
+  .book-info p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .book-list,
+  .shimmer-container {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+  }
+
+  .book-cover,
+  .shimmer-cover {
+    height: 180px;
+  }
+
+
+}
