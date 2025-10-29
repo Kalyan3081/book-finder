@@ -8,7 +8,7 @@ This project was built using **React** and **Vite**.
 
 ## 🚀 Live Demo
 
-🔗 **Live Preview:** [https://jqm67t-5173.csb.app/](https://jqm67t-5173.csb.app/)  
+🔗 **Live Preview:** [https://jqm67t-5173.csb.app/](https://xck8jq-5173.csb.app/)  
 💻 **View on CodeSandbox:** [https://jqm67t-5173.csb.app/](https://jqm67t-5173.csb.app/)  
 📦 **GitHub Repository:** [https://github.com/Kalyan3081/book-finder](https://github.com/Kalyan3081/book-finder)
 
@@ -16,30 +16,31 @@ This project was built using **React** and **Vite**.
 
 ## 🎯 Features
 
-- 🔍 **Search Books:** Search by title or author.  
-- 📱 **Responsive UI:** Works seamlessly on desktop and mobile.  
-- 📘 **Book Cards:** Display cover, title, author(s), year published, and edition count.  
-- ⚡ **Shimmer Loading:** Skeleton loader while fetching data.  
-- 📖 **Book Details Page:** View detailed info by clicking on a book.  
-- 🚨 **Error Handling:** Graceful messages for no results or errors.  
-- 🧩 **Clean Code:** Modular React components with comments.  
+- 🔍 **Search Books:** Search by title or author.
+- 📱 **Responsive UI:** Works seamlessly on desktop and mobile.
+- 📘 **Book Cards:** Display cover, title, author(s), year published, and edition count.
+- ⚡ **Shimmer Loading:** Skeleton loader while fetching data.
+- 📖 **Book Details Page:** View detailed info by clicking on a book.
+- 🚨 **Error Handling:** Graceful messages for no results or errors.
+- 🧩 **Clean Code:** Modular React components with comments.
 
 ---
 
 ## 🛠 Tech Stack
 
-- ⚛️ React 18  
-- ⚡ Vite  
-- 🌐 React Router DOM  
-- 🔗 Fetch API  
-- 🎨 CSS Grid & Flexbox for layout  
-- 💫 Shimmer/Skeleton Loader  
+- ⚛️ React 18
+- ⚡ Vite
+- 🌐 React Router DOM
+- 🔗 Fetch API
+- 🎨 CSS Grid & Flexbox for layout
+- 💫 Shimmer/Skeleton Loader
 
 ---
 
 ## 📦 Getting Started
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/Kalyan3081/book-finder.git
 cd book-finder
@@ -47,6 +48,7 @@ npm install
 npm run dev
 npm run build
 ```
+
 ```
 book-finder/
 │
@@ -84,13 +86,12 @@ book-finder/
 ├── vite.config.js
 └── README.md
 ```
+
 ### 🌐 API Reference
+
 https://openlibrary.org/search.json?q={query}
 
 ### 🧑‍💻 Author
 
 **Vijay Kalyan**  
 🔗 [GitHub](https://github.com/Kalyan3081)
-
-
-
